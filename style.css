@@ -1,0 +1,158 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:800px;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	
+}
+
+form {
+    
+	width: 500px;
+	margin-top:0;
+	border: 2px solid #03045e;
+	padding: 10px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+    color:#540b0e;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 5px;
+	margin: 5px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 5px;
+}
+
+button,.button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration:none;
+	cursor: pointer;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+.navbar ul{
+	position:absolute;
+	left:10px;
+	list-style-type: none;
+	float:left;
+}
+.navbar li{
+	color: white;
+	background-color: #370617;
+	margin: 5px;
+	margin-right: 100px;
+	padding: 2px;
+	font-weight: bold;
+}
+.navbar li a{
+	text-decoration: none;
+}
+.navbar li a:active{
+	color: white;
+}
+.navbar li a:visited{
+	color: white;
+}
+.sty{
+                  display:inline-block;
+                  width:250px;
+                  background: blue;
+                  border:1px solid #fff;
+                  
+                  font-size:1.2em;
+                  text-align:center;
+            }
+            a{
+                  text-decoration:none;
+                  color:#fff;
+            }
+            article,aside{
+      display:inline-block;
+      vertical-align: top;
+}
+article{
+	position:absolute;
+      text-align:center;
+      width:300px;
+      padding-left:20px;
+      float:left;
+      left:10px;
+      top:5px;
+}
+aside{
+      position:absolute;
+      width:950px;
+    margin-bottom:10px;
+    float:right;
+    right:20px;
+
+}
+h1{
+	font-weight: bold;
+	font-size: 1.3em;
+}
